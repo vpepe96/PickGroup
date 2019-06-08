@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_receive_request_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profilo" />
+    </group>
+
+    <item android:title="Esami">
+        <menu>
+            <item
+                android:id="@+id/nav_receive_request_search_exams"
+                android:icon="@drawable/ic_book_black_24dp"
+                android:title="Registro Esami" />
+            <item
+                android:id="@+id/nav_receive_request_search_group"
+                android:icon="@drawable/ic_search_black_24dp"
+                android:title="Ricerca Gruppo" />
+            <item
+                android:id="@+id/nav_receive_request_search_student"
+                android:icon="@drawable/ic_person_add_black_24dp"
+                android:title="Ricerca Studente" />
+        </menu>
+    </item>
+
+    <item android:title="Altro">
+        <menu>
+            <item
+                android:id="@+id/nav_receive_request_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Impostazioni" />
+            <item
+                android:id="@+id/nav_receive_request_logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

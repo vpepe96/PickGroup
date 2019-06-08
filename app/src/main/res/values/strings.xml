@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PickGroup</string>
+    <string name="LoginButton">Login</string>
+    <string name="RegistrationButton">Registrati</string>
+    <string name="title_activity_login">PickGroup</string>
+    <string name="title_activity_profile">Profilo</string>
+    <string name="title_activity_menu_general">MenuGeneralActivity</string>
+    <string name="title_activity_search_student">Ricerca Studente</string>
+    <string name="title_activity_select_student">Ricerca Studente</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_login_title">PickGroup</string>
+    <string name="nav_header_login_subtitle">Scegli il gruppo adatto a te</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="title_activity_sent_requests">Richieste Inviate</string>
+    <string name="title_activity_receive_request">Richieste Ricevute</string>
+    <string name="title_activity_search_group_start">Ricerca Gruppo</string>
+    <string name="title_activity_search_group_end">Ricerca Gruppo</string>
+    <string name="title_activity_exam_list">Lista esami</string>
+</resources>

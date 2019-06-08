@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pickgroup">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="PickGroup"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ExamListActivity"
+            android:label="@string/title_activity_exam_list"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".SearchGroupEndActivity"
+            android:label="@string/title_activity_search_group_end"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchGroupStartActivity"
+            android:label="@string/title_activity_search_group_start"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReceiveRequestsActivity"
+            android:label="@string/title_activity_receive_request"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SentRequestsActivity"
+            android:label="@string/title_activity_sent_requests"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchStudentEndActivity"
+            android:label="@string/title_activity_select_student"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchStudentStartActivity"
+            android:label="@string/title_activity_search_student"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
